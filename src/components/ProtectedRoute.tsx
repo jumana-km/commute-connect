@@ -1,7 +1,7 @@
 
 import { useEffect } from 'react';
 import { Navigate, useLocation } from 'react-router-dom';
-import { toast } from '@/components/ui/sonner';
+import { toast } from '@/lib/toast';
 
 interface ProtectedRouteProps {
   children: React.ReactNode;
